@@ -1,4 +1,4 @@
-#!/usr/env/ python
+#!/usr/bin/env python
 
 import sys
 import time
@@ -34,6 +34,8 @@ class latex_file:
                    "\sffamily{",
                    "    \maketitle",
                    "\n\n",
+                   "    }",
+                   "\end{document}",
                    "\\bibliography{"+self.file_name+"}{}",
                    "\\bibliographystyle{apalike}"]
 
